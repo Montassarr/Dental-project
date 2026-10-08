@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-serif-display {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+
+  .font-mono-code {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+}
+
+/* Scalable Font Size System for Eye Comfort */
+.text-scale-normal {
+  font-size: 1rem; /* 16px base */
+}
+
+.text-scale-large {
+  font-size: 1.125rem; /* 18px base */
+}
+
+.text-scale-xlarge {
+  font-size: 1.25rem; /* 20px base */
+}
+
+/* Eye-Friendly Reading Themes */
+.theme-dark-soft {
+  --bg-primary: #0a0f1d;
+  --bg-surface: #131c31;
+  --bg-surface-elevated: #1a2540;
+  --border-color: rgba(71, 85, 105, 0.4);
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --accent-color: #14b8a6;
+}
+
+.theme-warm-paper {
+  --bg-primary: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #f1f5f9;
+  --border-color: rgba(203, 213, 225, 0.8);
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --accent-color: #0d9488;
+}
+
+.theme-sepia-cozy {
+  --bg-primary: #fbf0d9;
+  --bg-surface: #f4e5c5;
+  --bg-surface-elevated: #eedcb5;
+  --border-color: rgba(180, 150, 110, 0.4);
+  --text-main: #2b1f13;
+  --text-muted: #6e543c;
+  --accent-color: #b45309;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
+}

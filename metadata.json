@@ -1,0 +1,6 @@
+{
+  "name": "Chirurgie Buccale - Extractions Dentaires 3D",
+  "description": "Plateforme pédagogique interactive du cours d'exodontie et complications chirurgicales (Pr Ag Adel BOUGUEZZI, Clinique Dentaire de Monastir). Modèles 3D, biomécanique, instrumentation, simulateur de daviers et quiz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
